@@ -1,0 +1,36 @@
+/** An unknown failure has occurred. */
+UNKNOWN_FAILURE: 1,
+
+/** Bad data (corrupted or malformed) was encountered. */
+BAD_DATA: 2,
+
+/** A network failure was encountered. */
+NETWORK_FAILURE: 3,
+
+/** Access was denied to a network resource (HTTP 403) */
+NETWORK_ACCESS_DENIED: 4,
+
+/** A network resource could not be found (HTTP 404) */
+NETWORK_FILE_NOT_FOUND: 5,
+
+/** A server error was returned when accessing a network resource (HTTP 5xx) */
+NETWORK_SERVER_ERROR: 6,
+
+/** An unhandled response code was returned when accessing a network resource (HTTP 'everything else') */
+NETWORK_UNHANDLED_RESPONSE_CODE: 7,
+
+/** Browser error: webGL is not supported by the current browser */
+BROWSER_WEBGL_NOT_SUPPORTED: 8,
+
+/** There is nothing viewable in the fetched document */
+BAD_DATA_NO_VIEWABLE_CONTENT: 9,
+
+/** Browser error: webGL is supported, but not enabled */
+BROWSER_WEBGL_DISABLED: 10,
+
+/** There is no geomtry in loaded model */
+BAD_DATA_MODEL_IS_EMPTY: 11,
+
+/** Collaboration server error */
+RTC_ERROR: 12
+
