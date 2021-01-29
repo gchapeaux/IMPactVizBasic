@@ -3,8 +3,8 @@
 module.exports = {
   // set enviroment variables or hard-code here
   credentials: {
-    client_id: 'rt2DhnuChgIIEX3GhnGyeISPS9Vzoh3p',
-    client_secret: 'm0A2DDvTUh9A6ZYj'
+    client_id: 'CLIENT_ID',
+    client_secret: 'CLIENT_SECRET'
   },
   bucketName: 'dvimpctbucket',
   autoRefresh: true,
